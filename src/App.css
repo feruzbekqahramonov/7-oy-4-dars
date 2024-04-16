@@ -1,0 +1,89 @@
+.containeer {
+  margin: 50px auto;
+  width: 100%;
+  max-width: 583px;
+  background-color: #15101C;
+  border-radius: 15px;
+  padding: 50px 65px;
+}
+
+.header_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.header_input input {
+  background-color: transparent;
+  width: 381px;
+  padding: 10px;
+  outline: #9E78CF;
+  border: 1px solid #9E78CF;
+  border-radius: 10px;
+  color: #9E78CF;
+}
+
+.image {
+  background-color: #9E78CF;
+  border-radius: 10px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.image:hover {
+  background-color: #562a91;
+}
+
+.tasks_todo {
+  padding-left: 10px;
+  flex-direction: column;
+  max-width: 0 auto;
+}
+
+.title{
+  color: aliceblue;
+}
+
+.todo_cards {
+  flex-direction: column;
+  margin-top: 17px;
+  gap: 16px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0D0714;
+  padding: 21px;
+  border-radius: 10px;
+  color: #9E78CF;
+}
+
+.FaCheck {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.GiReturnArrow {
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.trash {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}

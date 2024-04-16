@@ -1,0 +1,9 @@
+.but:hover {
+    opacity: 0.5;
+}
+
+.return {
+    width: 20px;
+    height: 20px;
+    color: #78CFB0;
+}
