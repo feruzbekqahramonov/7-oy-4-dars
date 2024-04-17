@@ -62,7 +62,7 @@ function App() {
           <img src={plus} alt="plus" className="image" onClick={handleForm} />
         </div>
         <div className="tasks_todo">
-          <p className="title">Tasks to do - {todos.length}</p>
+          <p className="title">Tasks to do - {activeTodos.length}</p>
           <div className="todo_cards" >
             {todoss.length > 0 &&
               activeTodos.map((todo, index) => {
@@ -73,7 +73,7 @@ function App() {
           </div>
         </div>
         <div className="tasks_todo">
-          <p className="title">Done - 0</p>
+          <p className="title">Done - {inactiveTodos.length}</p>
           <div className="todo_cards" >
             {todos.length > 0 &&
               inactiveTodos.map((todo, index) => {
